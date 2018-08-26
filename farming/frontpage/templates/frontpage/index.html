@@ -1,161 +1,602 @@
+{% load staticfiles %}
+<!doctype html>
+<html class="no-js" lang="en">
 
-<!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
-</style>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>bagani - Gardening and Landscaping Bootstrap4 Template</title> 
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <!--<link rel="shortcut icon" type="image/x-icon" href="static/img/bagani-v1/favicon.ico">-->
+    <!-- All CSS Files -->
+    <!-- Bootstrap css -->
+
+    <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/et-line.css">
+    <!-- Plugins css file -->
+    <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/plugins.css">
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/style.css">
+     <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/base.css">
+    
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/css/responsive.css">
+    <!-- Modernizr JS -->
+    <script src="/Users/Aruvansh/Desktop/IndiaFarm/farming/frontpage/static/Scripts/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Rubik:300,400,500,700,900');
+        body {
+          font-family: "Poppins",sans-serif;
+        }
+        .buy-btn.top-btn {
+            background-color: #49a010;
+            border-color: #49a010;
+            margin-top: 12px;
+        }
+        .stick .buy-btn.top-btn {
+            margin-top: 0;
+        }
+        .buy-btn:hover {
+            background-color: #49a010;
+            border-color: #49a010;
+        }
+        .demo-item .image::after {
+            background-color: #49a010;
+        }
+        .demo-item .image i:hover {
+            color: #49a010;
+        }
+        .stick .buy-btn.top-btn {
+            border: 2px solid #49a010;
+            color: #fff;
+        }
+        .stick .buy-btn {
+            border: 2px solid #49a010;
+            color: #49a010;
+        }
+        .single-feature .icon {
+            color: #49a010;
+        }
+        .footer-section {
+          background-color: #000;
+        }
+        .stick .buy-btn:hover {
+            color: #fff;
+        }
+        .demo-item .title a:hover {
+            color: #49a010;
+        }
+        .footer-section .buy-btn:hover {
+            color: #49a010;
+        }
+        .footer-section .buy-btn.bottom-btn {
+            color: #fff;
+            background-color: #49a010;
+            border: 2px solid #49a010;
+        }
+        .hero-content h1 {
+            text-transform: capitalize;
+            font-family: "Poppins",sans-serif;
+        }
+        .stick .non-sticky {
+            display: none;
+        }
+        .stick .logo {
+            padding: 0;
+        }
+        .stick .logo a {
+            width: 140px;
+            margin-top: -5px;
+        }
+        .demo-item {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+        }
+        .demo-item .title {
+            padding: 20px 0;
+            margin: 0;
+        }
+        .logo a {
+            transition: inherit;
+            margin-top: 14px;
+        }
+        .section-title h1 {
+          color: #555555;
+          font-family: "Poppins",sans-serif;
+          line-height: 40px;
+        }
+        .overlay::before {
+          opacity: 0.7;
+        }
+        .logo a .sticky-logo {
+          width: auto;
+        }
+        .hero-content h1 strong {
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+        .hero-content p {
+          max-width: 700px;
+        }
+        @media only screen and (min-width: 1600px) {
+            .container.custom-container {
+                width: 1570px;
+            }
+        }
+        @media only screen and (max-width: 479px) {
+            .buy-btn.top-btn {
+                margin-top: 6px;
+            }
+            .stick .logo {
+                margin-top: -4px;
+            }
+            .stick .logo a {
+                width: 116px;
+            }
+        }
+    </style>
+
+
+</head>
+
 <body>
 
-<!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Close Menu</a>
-  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-</nav>
+    <!-- Start Header Section -->
+    <div class="header-section section sticker">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- Logo -->
+                    <div class="logo float-left">
+                        <a class="non-sticky" href="bagani-v1/index.html">
+                            <img src="static/img/bagani-v1/logo.png" alt="">
+                        </a>
+                        <a href="bagani-v1/index.html">
+                            <img src="static/img/bagani-v1/logo.png" alt="" class="sticky-logo">
+                        </a>
+                    </div>
+                    <!-- Logo -->
+                    <div class="float-right">
+                        <a class="buy-btn top-btn" href="#">buy bagani</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Section End -->
 
-<!-- Top menu -->
-<div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">&#9776;</div>
-    <div class="w3-right w3-padding-16">Mail</div>
-    <div class="w3-center w3-padding-16">My Food</div>
-  </div>
-</div>
+    <!-- Start Hero Section -->
+    <div class="hero-section section overlay" style="background-image: url('static/img/bagani-v1/bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="hero-content text-center col-xs-12">
+                    <h1>
+                        <strong>bagani</strong>Gardening and Landscaping Bootstrap4 Template</h1>
+                    <p>bagani is the best template for your Gardening, Landscaping Companies, Lawn Services, Agriculture website which comes with unique design and user friendly code.</p>
+                    <a class="buy-btn" href="#demo">View Demo</a>
+                </div>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
 
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-    <div class="w3-quarter">
-      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
-      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/steak.jpg" alt="Steak" style="width:100%">
-      <h3>Let Me Tell You About This Steak</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/cherries.jpg" alt="Cherries" style="width:100%">
-      <h3>Cherries, interrupted</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-      <p>What else?</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/wine.jpg" alt="Pasta and Wine" style="width:100%">
-      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
+    <!-- Start Demo Section -->
+    <div id="demo" class="demo-section section pt-120 pb-70 bg-gray">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="section-style">
+                    <div class="section-title col-xs-12 mb-70">
+                        <h1>Homepage Layouts.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/index.html" class="image"  >
+                            <img src="static/img/bagani-v1/defalut-home.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/index.html">Default Home</a>
+                        </h4>
+                    </div>
+                </div>
 
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
-      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
-      <h3>The Perfect Sandwich, A Real Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/index-animation-text.html" class="image"  >
+                            <img src="static/img/bagani-v1/animate-text-home.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/index-animation-text.html">Home Animation Text</a>
+                        </h4>
+                    </div>
+                </div>
 
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">&laquo;</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">&raquo;</a>
-    </div>
-  </div>
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/index-banner.html" class="image"  >
+                            <img src="static/img/bagani-v1/fixed-image-home.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/index-banner.html">Home Fixed Image</a>
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/index-box.html" class="image"  >
+                            <img src="static/img/bagani-v1/home-box.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/index-box.html">Box Layout</a>
+                        </h4>
+                    </div>
+                </div>
 
-  <hr id="about">
-
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32 w3-center">
-    <h3>About Me, The Food Man</h3><br>
-    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
-    <div class="w3-padding-32">
-      <h4><b>I am Who I Am!</b></h4>
-      <h6><i>With Passion For Real, Good Food</i></h6>
-      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-    </div>
-  </div>
-  <hr>
-
-  <!-- Footer -->
-  <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-third">
-      <h3>FOOTER</h3>
-      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </div>
-
-    <div class="w3-third">
-      <h3>BLOG POSTS</h3>
-      <ul class="w3-ul w3-hoverable">
-        <li class="w3-padding-16">
-          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Lorem</span><br>
-          <span>Sed mattis nunc</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Ipsum</span><br>
-          <span>Praes tinci sed</span>
-        </li>
-      </ul>
+            </div>
+        </div>
     </div>
 
-    <div class="w3-third w3-serif">
-      <h3>POPULAR TAGS</h3>
-      <p>
-        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
-      </p>
+    <div class="demo-section section pt-120">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="section-style">
+                    <div class="section-title col-xs-12 mb-70">
+                        <h1>Blog Pages.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/blog-list.html" class="image"  >
+                            <img src="static/img/bagani-v1/blog-list.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/blog-list.html">Blog List</a>
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/blog-sidebar.html" class="image"  >
+                            <img src="static/img/bagani-v1/blog-sidebar.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/blog-sidebar.html">Blog Sidebar</a>
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/blog-details.html" class="image"  >
+                            <img src="static/img/bagani-v1/blog-deatils.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/blog-details.html">Blog Details</a>
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-  </footer>
+    
+    <div class="demo-section section pt-70 pb-70">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="section-style">
+                    <div class="section-title col-xs-12 mb-70">
+                        <h1>Other Pages.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
 
-<!-- End page content -->
-</div>
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/about.html" class="image"  >
+                            <img src="static/img/bagani-v1/about-us.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/about.html">About Us</a>
+                        </h4>
+                    </div>
+                </div>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/service.html" class="image"  >
+                            <img src="static/img/bagani-v1/service.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/service.html">Service</a>
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/gallery.html" class="image"  >
+                            <img src="static/img/bagani-v1/gallery.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/gallery.html">Gallery</a>
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/team.html" class="image"  >
+                            <img src="static/img/bagani-v1/team-member.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/team.html">Team Member</a>
+                        </h4>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="bagani-v1/contact.html" class="image"  >
+                            <img src="static/img/bagani-v1/contact.jpg" alt="">
+                            <i class="fa fa-long-arrow-right"></i>
+                        </a>
+                        <h4 class="title">
+                            <a href="bagani-v1/contact.html">Contact Us</a>
+                        </h4>
+                    </div>
+                </div>
 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Hero Section -->
+    <div class="feature-section section pt-150 pb-100 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="section-title col-xs-12 mb-70">
+                    <h1>Gardenin Feature</h1>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-mobile"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Responsive Design</h4>
+                        <p>bagani is supper responsive & work perfectly in all devices.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-profile-male"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>User Friendly</h4>
+                        <p>bagani easy to use for any technical & non technical People.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-beaker"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Creative Design</h4>
+                        <p>It's comes with creative & smart design layout.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-puzzle"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Icon Font</h4>
+                        <p>It's comes with most popular font.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-genius"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Google Font</h4>
+                        <p>600 Google Fonts. You can change font for all elements easily.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-envelope"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Ajax Contact Form</h4>
+                        <p>It comes with ajax contact form which makes messaging much more quicker.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-search"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Clean Markup</h4>
+                        <p>We developed it followed by W3C Markup.</p>
+                    </div>
+                </div>
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-upload"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Free Updates</h4>
+                        <p>Purchase once & get life-time free updates.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-megaphone"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Real Support</h4>
+                        <p>We provide 7 days a week one by one real support.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-layers"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Html 5 & Css 3</h4>
+                        <p>bagani comes with HTML5 and CSS3 the latest versions.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-aperture"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Modern Framework</h4>
+                        <p>bagani comes with Bootstrap 4 the popular framework.</p>
+                    </div>
+                </div>
+
+                <div class="single-feature col-md-4 col-sm-6 col-xs-12 mb-50">
+                    <span class="icon float-left">
+                        <i class="icon-map-pin"></i>
+                    </span>
+                    <div class="content fix">
+                        <h4>Google Maps</h4>
+                        <p>bagani comes with google map which is easy to setup.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section End -->
+    <!-- Start Demo Section -->
+    <div class="demo-section also-like section pt-120 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="section-title col-xs-12 mb-70">
+                    <h1>You May Also Like our Another HTML</h1>
+                </div>            
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/nursery-bagani-v1g-and-landscaping-html-template/20805662?s_rank=5" class="image"><img src="https://s3.envato.com/files/235123485/preview.__large_preview.png" alt=""><i class="fa fa-long-arrow-right"></i></a>
+                        <h4 class="title"><a href="https://themeforest.net/item/nursery-bagani-v1g-and-landscaping-html-template/20805662?s_rank=5">Nursery - Gardening and Landscaping HTML Template </a></h4>
+                    </div>
+                </div>  
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/greenin-bagani-v1g-and-landscaping-html-template/20566597?s_rank=1" class="image"><img src="https://s3.envato.com/files/232741374/preview.__large_preview.jpg" alt=""><i class="fa fa-long-arrow-right"></i></a>
+                        <h4 class="title"><a href="https://themeforest.net/item/greenin-bagani-v1g-and-landscaping-html-template/20566597?s_rank=1">Greenin Gardening and Landscaping HTML Template </a></h4>
+                    </div>
+                </div>  
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/green-soul-environment-nonprofit-html-template/19612213?s_rank=1" class="image"><img src="https://s3.envato.com/files/222792160/preview.__large_preview.jpg" alt=""><i class="fa fa-long-arrow-right"></i></a>
+                        <h4 class="title"><a href="https://themeforest.net/item/green-soul-environment-nonprofit-html-template/19612213?s_rank=1">Green Soul - Environment & Non-Profit HTML Template</a></h4>
+                    </div>
+                </div>     
+                
+            </div>
+        </div>
+    </div>
+    <!-- Demo Section End -->
+    <!-- Start Demo Section -->
+    <div class="demo-section also-like bg-gray section pt-120 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="section-title col-xs-12 mb-70">
+                    <h1>You May Also Like our Another wordpress</h1>
+                </div>            
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/nursery-gardening-and-landscaping-wordpress-theme/20253612?s_rank=3" class="image"><img src="https://s3.envato.com/files/229609666/00-preview-image.__large_preview.jpg" alt=""><i class="fa fa-long-arrow-right"></i></a>
+                        <h4 class="title"><a href="https://themeforest.net/item/nursery-gardening-and-landscaping-wordpress-theme/20253612?s_rank=3">Nursery - Gardening and Landscaping WordPress Theme </a></h4>
+                    </div>
+                </div>  
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/green-soul-environment-nonprofit-wordpress-theme/19972785?s_rank=70" class="image"><img src="https://s3.envato.com/files/226604432/preview.__large_preview.jpg" alt=""><i class="fa fa-long-arrow-right"></i></a>
+                        <h4 class="title"><a href="https://themeforest.net/item/green-soul-environment-nonprofit-wordpress-theme/19972785?s_rank=70">Green Soul - Environment & Non-Profit WordPress Theme </a></h4>
+                    </div>
+                </div>  
+                <div class="col-md-4 col-sm-6 col-12 mb-50">
+                    <div class="demo-item">
+                        <a href="https://themeforest.net/item/beautyhouse-health-beauty-wordpress-theme/19762331?s_rank=6" class="image"><img src="https://s3.envato.com/files/224290999/preview.__large_preview.jpg" alt=""><i class="fa fa-long-arrow-right"></i></a>
+                        <h4 class="title"><a href="https://themeforest.net/item/beautyhouse-health-beauty-wordpress-theme/19762331?s_rank=6">Beautyhouse - Health & Beauty WordPress Theme</a></h4>
+                    </div>
+                </div>     
+                
+            </div>
+        </div>
+    </div>
+    <!-- Demo Section End -->
+
+    <div class="footer-section section pt-65 pb-50">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Make your website come to life quickly.</h1>
+                    <a class="buy-btn float-right bottom-btn" href="#">buy bagani
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Placed JS at the end of the document so the pages load faster -->
+    <!-- jQuery latest version -->
+    <script src="static/js/vendor/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="static/js/plugins.js"></script>
+    <!-- Ajax Mail js -->
+    <script src="static/js/ajax-mail.js"></script>
+    <!-- Main js -->
+    <script src="static/js/main.js"></script>
 
 </body>
+
 </html>
