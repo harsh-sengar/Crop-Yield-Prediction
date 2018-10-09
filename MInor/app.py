@@ -25,7 +25,8 @@ def predict():
 		with open(name, 'rb') as fp:
 			data=pickle.load(fp)
 			return data
-	dictionary = load("data/dict1")
+	dictionary_temperature = load("data/dicttemperature")
+	dictionary_rainfall= load("data/dictrainfall")
 	def CreateTrainDataset(data, k=10):
 		dataX, dataY = [],[]
 		for i in range(data.shape[0]-k):
@@ -36,28 +37,54 @@ def predict():
 		return np.array(dataX), np.array(dataY)
 	if request.method == 'POST':
 		comment = request.form['comment']
-	    
+		charts=request.form['charts']
+		
 		data1 = [comment]
-		data1=str(data1)
+		
+		
 		def CreateDataset(dis):
-			lst=[]
-			for year in dictionary[dis]:
-				lst.append(dictionary[dis][year])
-			lst=np.array(lst)
-			trainData = lst[:90]
-			testData = lst[90:]
-			x_train, y_train = CreateTrainDataset(trainData)
-			x_test, y_test = CreateTrainDataset(testData)
-			return x_train, x_test, y_train, y_test
-		x_train, x_test, y_train, y_test = CreateDataset(comment)
-		json_file=open('data/model.json','r')
-		loaded_model=json_file.read()
-		json_file.close()
-		model=model_from_json(loaded_model)
-		model.load_weights("data/CropNameWt.h5")
-		model.compile(loss='mean_squared_error', optimizer='rmsprop', metrics=['accuracy'])
-		ypred = model.predict(x_test);
-		return render_template('result.html',prediction = ypred)
+			lst_temperature=[]
+			lst_rainfall=[]
+			for year in dictionary_temperature[dis]:
+				lst_temperature.append(dictionary_temperature[dis][year])
+				lst_rainfall.append(dictionary_rainfall[dis][year])
+			lst_temperature=np.array(lst_temperature)
+			lst_rainfall=np.array(lst_rainfall)
+			#trainData_temperature = lst_temperature[:90]
+			testData_temperature = lst_temperature[90:]
+			#trainData_rainfall = lst_rainfall[:90]
+			testData_rainfall = lst_rainfall[90:]
+			#x_train_t, y_train_t = CreateTrainDataset(trainData_temperature)
+			x_test_t, y_test_t = CreateTrainDataset(testData_temperature)
+			#x_train_r, y_train_r = CreateTrainDataset(trainData_rainfall)
+			x_test_r, y_test_r = CreateTrainDataset(testData_rainfall)
+			return x_test_t, x_test_r
+
+		x_test_t, x_test_r = CreateDataset(comment)
+		json_t="data/"+comment+"modeltemperature.json"
+		json_r="data/"+comment+"modelrainfall.json"
+		json_file_t=open(json_t,'r')
+		json_file_r=open(json_r,'r')
+		loaded_model_t=json_file_t.read()
+		loaded_model_r=json_file_r.read()
+		json_file_t.close()
+		json_file_r.close()
+		model_t=model_from_json(loaded_model_t)
+		model_r=model_from_json(loaded_model_r)
+		name_t="data/"+comment+"temperature.h5"
+		name_r="data/"+comment+"rainfall.h5"
+		model_t.load_weights(name_t)
+		model_r.load_weights(name_r)
+		model_t.compile(loss='mean_absolute_error', optimizer='rmsprop', metrics=['accuracy'])
+		model_r.compile(loss='mean_absolute_error', optimizer='sgd', metrics=['accuracy'])
+		ypred_t = model_t.predict(x_test_t);
+		ypred_r = model_r.predict(x_test_r);
+		print(ypred_r.shape)
+		for j in range(0,12):
+			if(ypred_r[0][j]<0):
+				ypred_r[0][j]=0
+
+		return render_template('result.html',prediction = ypred_r, prediction2=ypred_t,chart=charts)
 
 
 

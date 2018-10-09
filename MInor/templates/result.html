@@ -9,20 +9,85 @@
 	<header>
 		<div class="container">
 		<div id="brandname">
-			ML App
 		</div>
-		<h2>Crop Prediction</h2>
-		
 	</div>
+	
 	</header>
-	<p style="color:blue;font-size:20;text-align: center;"><b>Results for Prediction</b></p>
 	<div class="results">
-
-
-	
-	<h2 style="color:red;">The predicted data {{prediction[0] }}</h2>
-	
 	</div>
+<div id="chartContainer1" style="height: 370px; width: 100%;"></div>
+<div id="chartContainer2" style="height: px; width: 100%;"></div>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+<script type="text/javascript">
+var hi='{{chart}}'	
+window.onload = function () {
+
+var chart1 = new CanvasJS.Chart("chartContainer1", {
+	theme: "light1", // "light2", "dark1", "dark2"
+	animationEnabled: true, // change to true		
+	title:{
+		text: "Temperature Prediction"
+	},
+	data: [
+	{
+		// Change type to "bar", "area", "spline", "pie",etc.
+		type:hi ,
+		
+		dataPoints: [
+			{ label: "January",  y:{{prediction2[0][0] }}  },
+			{ label: "February", y: {{prediction2[0][1] }} },
+			{ label: "March", y: {{prediction2[0][2] }}  },
+			{ label: "April",  y: {{prediction2[0][3] }} },
+			{ label: "May",  y: {{prediction2[0][4] }}  },
+			{ label: "June",  y: {{prediction2[0][5] }} },
+			{ label: "July", y: {{prediction2[0][6] }}  },
+			{ label: "August", y: {{prediction2[0][7] }}  },
+			{ label: "September",  y: {{prediction2[0][8] }}  },
+			{ label: "October",  y: {{prediction2[0][9] }} },
+			{ label: "November",  y: {{prediction2[0][10] }} },
+			{ label: "December",  y: {{prediction2[0][11] }}  }
+			
+
+		]
+	}
+	]
+});
+var chart2 = new CanvasJS.Chart("chartContainer2", {
+	theme: "light1", // "light2", "dark1", "dark2"
+	animationEnabled: true, // change to true		
+	title:{
+		text: "Rainfall Prediction"
+	},
+	data: [
+	{
+		// Change type to "bar", "area", "spline", "pie",etc.
+		type: hi,
+		dataPoints: [
+			{ label: "January",  y:{{prediction[0][0] }}  },
+			{ label: "February", y: {{prediction[0][1] }} },
+			{ label: "March", y: {{prediction[0][2] }}  },
+			{ label: "April",  y: {{prediction[0][3] }} },
+			{ label: "May",  y: {{prediction[0][4] }}  },
+			{ label: "June",  y: {{prediction[0][5] }} },
+			{ label: "July", y: {{prediction[0][6] }}  },
+			{ label: "August", y: {{prediction[0][7] }}  },
+			{ label: "September",  y: {{prediction[0][8] }}  },
+			{ label: "October",  y: {{prediction[0][9] }} },
+			{ label: "November",  y: {{prediction[0][10] }} },
+			{ label: "December",  y: {{prediction[0][11] }}  }
+			
+
+		]
+	}
+	]
+});
+chart1.render();
+chart2.render();
+}
+</script>
+</head>
+<body>
 
 </body>
 </html>

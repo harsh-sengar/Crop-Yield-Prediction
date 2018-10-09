@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-
 <html>
 
 <head>
@@ -9,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/noscript.css') }}">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -18,18 +16,13 @@
             "background-image: url({{ url_for('static', filename='images/bg.jpg') }})" background-color: #cccccc;
         }
     </style>
-
     <div id="wrapper">
-
         <nav id="nav">
-
             <a href="#me" class="fa fa-home active" style="color:maroon"><i class="fa fa-home" style="font-size:80px" ></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#work" class="icon fa-folder" style="color:green" ><i class="fa fa-briefcase" style="font-size:76px"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#work" class="icon fa-folder" style="color:white"><i class="fa fa-briefcase" style="font-size:76px"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;
             <a href="#contact" class="icon fa-envelope" style="color:orange"><i class="fa fa-phone" style="font-size:80px"></i></a> &nbsp;&nbsp;
         </nav>
-
         <div id="main">
-
             <article id="me" class="panel">
                 <header>
                     <h1>India Farm</h1>
@@ -40,31 +33,55 @@
                     <img src="{{ url_for('static', filename='images/farm.jpg') }}" alt="" />
                 </a>
             </article>
-
             <article id="work" class="panel">
                 <header>
-                    <h2>Predictions</h2>
+                    <h2><center>Predictions based on Temperature and Rainfall</h2><center>
                 </header>
                 <p>
                     A crop prediction website for farmers to know more about their fields and to maximize their output
                 </p>
-
                 <section>
                     <div class="ml-container" style="color: black">
-
                         <form action="{{ url_for('predict')}}" method="POST">
                             <p>Enter the name of the district that you want to search for</p>
+                            <center><b>District Name:</center></b>
+                            <select name="comment">
+                                <option value="lucknow">lucknow</option>
+                                <option value="pilibhit">pilibhit</option>
+                                <option value="basti">basti</option>
+                                <option value="meerut">meerut</option>
+                                <option value="saharanpur">saharanpur</option>
+                                <option value="gorakhpur">gorakhpur</option>
+                                <option value="pratapgarh">pratapgarh</option>
+                                <option value="agra">agra</option>
+                                <option value="aligarh">aligarh</option>
+                                <option value="ghaziabad">ghaziabad</option>
+                                <option value="jaunpur">jaunpur</option>
+                                <option value="kheri">kheri</option>
+                                <option value="mahoba">mahoba</option>
+                                <option value="mathura">mathura</option>
+                                <option value="moradabad">moradabad</option>
+                                <option value="sitapur">sitapur</option>
+                                <option value="allahabad">allahabad</option>
+                                <option value="bareilly">bareilly</option>
+                                <option value="etawah">etawah</option>
+                            </select>
+                            <br>
+                            <center><b>Enter the data diagram for representation:</center></b>
+                             <select name="charts">
+                              <option value="bar">bar</option>
+                                <option value="spline">spline</option>
+                                <option value="area">area</option>
+                                 <option value="column">column</option>
+                                 <option value="pie">pie</option>
+                             </select>
 
-                            <textarea name="comment" rows="4" cols="50"></textarea>
-                            <br/>
-
-                            <input type="submit" class="btn-info" value="predict">
-
+                            <br>
+                            <br><center> <input type="submit" class="btn-info" value="predict" style="color: red"></center>
+                           
                         </form>
-
                 </section>
             </article>
-
             <!-- Contact -->
             <article id="contact" class="panel">
                 <header>
@@ -92,17 +109,13 @@
                     </div>
                 </form>
             </article>
-
             </div>
-
         </div>
-
         <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/skel-viewport.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/util.js') }}"></script>
         <script src="{{ url_for('static', filename='js/main.js') }}"></script>
-
 </body>
 
 </html>
