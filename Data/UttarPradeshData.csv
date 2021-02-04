@@ -1,0 +1,385 @@
+,0,1,2,3,4,5,6,7
+0,Uttar Pradesh,balrampur,2014,Kharif,Urad,108030.0,0.0,0.0
+1,Uttar Pradesh,balrampur,2014,Kharif,Urad,84190.0,1.5e-323,1.5e-323
+2,Uttar Pradesh,balrampur,2014,Kharif,Sugarcane,43539.0,6.95276320752014e-310,0.0
+3,Uttar Pradesh,balrampur,2014,Rabi,Wheat,90246.0,2.152571897e-314,6.95276438530954e-310
+4,Uttar Pradesh,balrampur,2014,Rabi,Wheat,18087.0,0.0,2e-323
+5,Uttar Pradesh,balrampur,2014,Rabi,Rapeseed &Mustard,9629.0,0.0,0.0
+6,Uttar Pradesh,agra,2014,Kharif,Urad,10164.0,114.95300000000002,28.29433333333333
+7,Uttar Pradesh,agra,2014,Kharif,Sugarcane,1935.0,114.95300000000002,28.29433333333333
+8,Uttar Pradesh,agra,2014,Kharif,Sesamum,495.0,114.95300000000002,28.29433333333333
+9,Uttar Pradesh,agra,2014,Rabi,Wheat,136036.0,1.828,19.743250000000003
+10,Uttar Pradesh,agra,2014,Rabi,Rapeseed &Mustard,67228.0,1.828,19.743250000000003
+11,Uttar Pradesh,agra,2014,Rabi,Potato,45613.0,1.828,19.743250000000003
+12,Uttar Pradesh,aligarh,2014,Kharif,Urad,90420.0,122.11466666666666,28.662333333333333
+13,Uttar Pradesh,aligarh,2014,Kharif,Sugarcane,14445.0,122.11466666666666,28.662333333333333
+14,Uttar Pradesh,aligarh,2014,Kharif,Sesamum,6645.0,122.11466666666666,28.662333333333333
+15,Uttar Pradesh,aligarh,2014,Rabi,Wheat,223267.0,4.0495,19.58875
+16,Uttar Pradesh,aligarh,2014,Rabi,Rapeseed &Mustard,21683.0,4.0495,19.58875
+17,Uttar Pradesh,aligarh,2014,Rabi,Potato,19731.0,4.0495,19.58875
+18,Uttar Pradesh,allahabad,2014,Kharif,Urad,149419.0,183.09666666666666,27.366666666666664
+19,Uttar Pradesh,allahabad,2014,Kharif,Sugarcane,15261.0,183.09666666666666,27.366666666666664
+20,Uttar Pradesh,allahabad,2014,Kharif,Sesamum,4406.0,183.09666666666666,27.366666666666664
+21,Uttar Pradesh,allahabad,2014,Rabi,Wheat,213258.0,13.9275,19.695
+22,Uttar Pradesh,allahabad,2014,Rabi,Rapeseed &Mustard,20430.0,13.9275,19.695
+23,Uttar Pradesh,allahabad,2014,Rabi,Potato,13521.0,13.9275,19.695
+24,Uttar Pradesh,ambedkar nagar,2014,Kharif,Urad,118607.0,5e-324,
+25,Uttar Pradesh,ambedkar nagar,2014,Kharif,Sugarcane,11458.0,2.1877773906e-314,6.013469302927036e-154
+26,Uttar Pradesh,ambedkar nagar,2014,Kharif,Sesamum,3080.0,6.013469302926925e-154,6.013469302926925e-154
+27,Uttar Pradesh,ambedkar nagar,2014,Rabi,Wheat,120131.0,7.1e-322,7.1e-322
+28,Uttar Pradesh,ambedkar nagar,2014,Rabi,Rapeseed &Mustard,4536.0,1.5e-323,4e-323
+29,Uttar Pradesh,ambedkar nagar,2014,Rabi,Potato,3768.0,2.190882953e-314,2.1877939107e-314
+30,Uttar Pradesh,auraiya,2014,Kharif,Urad,55752.0,6.95276258471245e-310,6.95276438532204e-310
+31,Uttar Pradesh,auraiya,2014,Kharif,Sugarcane,8219.0,0.0,1e-323
+32,Uttar Pradesh,auraiya,2014,Kharif,Sesamum,2968.0,5e-324,0.0
+33,Uttar Pradesh,auraiya,2014,Rabi,Wheat,104341.0,5e-324,
+34,Uttar Pradesh,auraiya,2014,Rabi,Rapeseed &Mustard,13229.0,0.0,1.4946092090455235e+195
+35,Uttar Pradesh,auraiya,2014,Rabi,Potato,6402.0,0.0,9.823913155226129e+252
+36,Uttar Pradesh,azamgarh,2014,Kharif,Urad,202341.0,1.067e-321,1.067e-321
+37,Uttar Pradesh,azamgarh,2014,Kharif,Sugarcane,20282.0,4.4e-323,4e-323
+38,Uttar Pradesh,azamgarh,2014,Kharif,Sesamum,8190.0,2.190882953e-314,2.187793912e-314
+39,Uttar Pradesh,azamgarh,2014,Rabi,Wheat,243897.0,6.9527625847148e-310,6.9527643853244e-310
+40,Uttar Pradesh,azamgarh,2014,Rabi,Rapeseed &Mustard,4791.0,0.0,1e-323
+41,Uttar Pradesh,azamgarh,2014,Rabi,Potato,3068.0,2e-323,0.0
+42,Uttar Pradesh,baghpat,2014,Kharif,Urad,77107.0,5e-324,
+43,Uttar Pradesh,baghpat,2014,Kharif,Sugarcane,5792.0,5e-323,5.929424619178853e-114
+44,Uttar Pradesh,baghpat,2014,Kharif,Sesamum,409.0,0.0,1.6141053301360353e+132
+45,Uttar Pradesh,baghpat,2014,Rabi,Wheat,51752.0,1.423e-321,1.423e-321
+46,Uttar Pradesh,baghpat,2014,Rabi,Rapeseed &Mustard,1747.0,4.4e-323,4e-323
+47,Uttar Pradesh,baghpat,2014,Rabi,Potato,277.0,2.190882955e-314,2.1877939137e-314
+48,Uttar Pradesh,bahraich,2014,Kharif,Urad,165249.0,6.9527625847162e-310,6.9527643853268e-310
+49,Uttar Pradesh,bahraich,2014,Kharif,Sugarcane,66628.0,2e-323,1e-323
+50,Uttar Pradesh,bahraich,2014,Kharif,Sesamum,38237.0,2e-323,0.0
+51,Uttar Pradesh,bahraich,2014,Rabi,Wheat,165865.0,5e-324,
+52,Uttar Pradesh,bahraich,2014,Rabi,Rapeseed &Mustard,7905.0,0.0,1.4213787552470354e-76
+53,Uttar Pradesh,bahraich,2014,Rabi,Potato,1935.0,0.0,1.1141683217962066e+218
+54,Uttar Pradesh,ballia,2014,Kharif,Urad,122464.0,1.78e-321,1.78e-321
+55,Uttar Pradesh,ballia,2014,Kharif,Sugarcane,27434.0,4.4e-323,4.4e-323
+56,Uttar Pradesh,ballia,2014,Kharif,Sesamum,5076.0,2.190882955e-314,2.1877939137e-314
+57,Uttar Pradesh,ballia,2014,Rabi,Wheat,141821.0,6.95276258471976e-310,6.95276438532916e-310
+58,Uttar Pradesh,ballia,2014,Rabi,Rapeseed &Mustard,6297.0,0.0,6.609254111522967e-62
+59,Uttar Pradesh,ballia,2014,Rabi,Potato,3876.0,3e-323,9.16281385949371e-72
+60,Uttar Pradesh,banda,2014,Kharif,Urad,45895.0,1.5e-323,1.4213787552470354e-76
+61,Uttar Pradesh,banda,2014,Kharif,Sugarcane,23435.0,0.0,2.1877769005e-314
+62,Uttar Pradesh,banda,2014,Kharif,Sesamum,19197.0,2.121995791e-314,9.162810749752659e-72
+63,Uttar Pradesh,banda,2014,Rabi,Wheat,151692.0,2.134e-321,2.134e-321
+64,Uttar Pradesh,banda,2014,Rabi,Rapeseed &Mustard,100319.0,5.4e-323,3.5e-323
+65,Uttar Pradesh,banda,2014,Rabi,Potato,3948.0,2.1908829697e-314,2.1877939137e-314
+66,Uttar Pradesh,barabanki,2014,Kharif,Urad,191884.0,6.95276258472015e-310,6.9527643853331e-310
+67,Uttar Pradesh,barabanki,2014,Kharif,Sugarcane,9736.0,1.5e-322,0.0
+68,Uttar Pradesh,barabanki,2014,Kharif,Sesamum,9381.0,3e-323,5e-324
+69,Uttar Pradesh,barabanki,2014,Rabi,Wheat,165449.0,1.5e-323,5e-324
+70,Uttar Pradesh,barabanki,2014,Rabi,Rapeseed &Mustard,26373.0,0.0,2.1877769005e-314
+71,Uttar Pradesh,barabanki,2014,Rabi,Potato,17393.0,2.121995791e-314,9.021932611812496e+217
+72,Uttar Pradesh,bareilly,2014,Kharif,Urad,162390.0,141.38666666666666,28.0
+73,Uttar Pradesh,bareilly,2014,Kharif,Sugarcane,99211.0,141.38666666666666,28.0
+74,Uttar Pradesh,bareilly,2014,Kharif,Sesamum,4562.0,141.38666666666666,28.0
+75,Uttar Pradesh,bareilly,2014,Rabi,Wheat,212598.0,8.4075,19.240000000000002
+76,Uttar Pradesh,bareilly,2014,Rabi,Rapeseed &Mustard,16545.0,8.4075,19.240000000000002
+77,Uttar Pradesh,bareilly,2014,Rabi,Potato,1875.0,8.4075,19.240000000000002
+78,Uttar Pradesh,basti,2014,Kharif,Urad,104328.0,201.00703333333334,28.173000000000002
+79,Uttar Pradesh,basti,2014,Kharif,Sugarcane,36515.0,201.00703333333334,28.173000000000002
+80,Uttar Pradesh,basti,2014,Kharif,Sesamum,2647.0,201.00703333333334,28.173000000000002
+81,Uttar Pradesh,basti,2014,Rabi,Wheat,119630.0,17.360750000000003,20.0795
+82,Uttar Pradesh,basti,2014,Rabi,Rapeseed &Mustard,2545.0,17.360750000000003,20.0795
+83,Uttar Pradesh,basti,2014,Rabi,Potato,2435.0,17.360750000000003,20.0795
+84,Uttar Pradesh,bijnor,2014,Kharif,Urad,212471.0,2.1877770744e-314,2.964e-321
+85,Uttar Pradesh,bijnor,2014,Kharif,Sugarcane,54742.0,2.121995791e-314,4.4e-323
+86,Uttar Pradesh,bijnor,2014,Kharif,Sesamum,1938.0,2.190883181e-314,2.187793917e-314
+87,Uttar Pradesh,bijnor,2014,Rabi,Wheat,116552.0,0.0,6.9527643853331e-310
+88,Uttar Pradesh,bijnor,2014,Rabi,Rapeseed &Mustard,2422.0,0.0,5e-324
+89,Uttar Pradesh,bijnor,2014,Rabi,Potato,861.0,0.0,1.114168480773843e+218
+90,Uttar Pradesh,budaun,2014,Kharif,Urad,81242.0,0.0,9.45956264658009e-76
+91,Uttar Pradesh,budaun,2014,Kharif,Sugarcane,29629.0,0.0,2.1877769005e-314
+92,Uttar Pradesh,budaun,2014,Kharif,Sesamum,26551.0,0.0,1.4213781931909134e-76
+93,Uttar Pradesh,budaun,2014,Rabi,Wheat,255586.0,0.0,3.32e-321
+94,Uttar Pradesh,budaun,2014,Rabi,Rapeseed &Mustard,23984.0,0.0,1.5e-323
+95,Uttar Pradesh,budaun,2014,Rabi,Potato,15112.0,0.0,2.187793917e-314
+96,Uttar Pradesh,chandauli,2014,Kharif,Urad,102598.0,0.0,6.9527643853333e-310
+97,Uttar Pradesh,chandauli,2014,Kharif,Sugarcane,4641.0,0.0,1.970979839272873e-153
+98,Uttar Pradesh,chandauli,2014,Kharif,Sesamum,645.0,0.0,3.6297763224019294e+228
+99,Uttar Pradesh,chandauli,2014,Rabi,Wheat,95462.0,0.0,2.973270613151606e+222
+100,Uttar Pradesh,chandauli,2014,Rabi,Rapeseed &Mustard,1289.0,0.0,2.1877759677e-314
+101,Uttar Pradesh,chandauli,2014,Rabi,Potato,881.0,0.0,6.111360357604244e+223
+102,Uttar Pradesh,chitrakoot,2014,Kharif,Urad,12662.0,0.0,3.676e-321
+103,Uttar Pradesh,chitrakoot,2014,Kharif,Sugarcane,12446.0,0.0,3.5e-323
+104,Uttar Pradesh,chitrakoot,2014,Kharif,Sesamum,11800.0,0.0,2.187793917e-314
+105,Uttar Pradesh,chitrakoot,2014,Rabi,Wheat,54500.0,0.0,6.95276438534437e-310
+106,Uttar Pradesh,chitrakoot,2014,Rabi,Rapeseed &Mustard,45595.0,0.0,0.0
+107,Uttar Pradesh,chitrakoot,2014,Rabi,Potato,3794.0,0.0,1.5e-323
+108,Uttar Pradesh,deoria,2014,Kharif,Urad,132892.0,0.0,1e-323
+109,Uttar Pradesh,deoria,2014,Kharif,Sugarcane,8996.0,0.0,2.1877759677e-314
+110,Uttar Pradesh,deoria,2014,Kharif,Sesamum,5314.0,0.0,1.497825491409077e+179
+111,Uttar Pradesh,deoria,2014,Rabi,Wheat,155105.0,0.0,2.1877939043e-314
+112,Uttar Pradesh,deoria,2014,Rabi,Rapeseed &Mustard,1802.0,0.0,2.1877939137e-314
+113,Uttar Pradesh,deoria,2014,Rabi,Potato,1626.0,0.0,2.1877939137e-314
+114,Uttar Pradesh,etah,2014,Kharif,Urad,20898.0,0.0,2.187793917e-314
+115,Uttar Pradesh,etah,2014,Kharif,Sugarcane,18244.0,0.0,0.0
+116,Uttar Pradesh,etah,2014,Kharif,Sesamum,855.0,2.190883181e-314,4.03e-321
+117,Uttar Pradesh,etah,2014,Rabi,Wheat,133604.0,3.043e-321,1e-323
+118,Uttar Pradesh,etah,2014,Rabi,Rapeseed &Mustard,10016.0,5.4e-323,2.187793917e-314
+119,Uttar Pradesh,etah,2014,Rabi,Potato,7388.0,2.190883178e-314,6.9527643853345e-310
+120,Uttar Pradesh,etawah,2014,Kharif,Urad,52797.0,123.23666666666668,28.063333333333333
+121,Uttar Pradesh,etawah,2014,Kharif,Sugarcane,4787.0,123.23666666666668,28.063333333333333
+122,Uttar Pradesh,etawah,2014,Kharif,Sesamum,1687.0,123.23666666666668,28.063333333333333
+123,Uttar Pradesh,etawah,2014,Rabi,Wheat,96640.0,6.4125,19.487499999999997
+124,Uttar Pradesh,etawah,2014,Rabi,Rapeseed &Mustard,17149.0,6.4125,19.487499999999997
+125,Uttar Pradesh,etawah,2014,Rabi,Potato,15076.0,6.4125,19.487499999999997
+126,Uttar Pradesh,faizabad,2014,Kharif,Urad,94586.0,4.624e-321,2.1877939137e-314
+127,Uttar Pradesh,faizabad,2014,Kharif,Sugarcane,20004.0,1.5e-323,2.1877939137e-314
+128,Uttar Pradesh,faizabad,2014,Kharif,Sesamum,2059.0,2.190883178e-314,2.187793917e-314
+129,Uttar Pradesh,faizabad,2014,Rabi,Wheat,110261.0,6.9527627569787e-310,2.187793917e-314
+130,Uttar Pradesh,faizabad,2014,Rabi,Rapeseed &Mustard,3926.0,4.585e-321,4.585e-321
+131,Uttar Pradesh,faizabad,2014,Rabi,Potato,3859.0,5.4e-323,5.4e-323
+132,Uttar Pradesh,farrukhabad,2014,Kharif,Urad,26921.0,2.1908552116e-314,2.1877939176e-314
+133,Uttar Pradesh,farrukhabad,2014,Kharif,Sugarcane,11900.0,6.95276438534437e-310,6.95276438534437e-310
+134,Uttar Pradesh,farrukhabad,2014,Kharif,Sesamum,7198.0,0.0,5e-324
+135,Uttar Pradesh,farrukhabad,2014,Rabi,Wheat,77049.0,1.0609849292574809e-153,2.168502617e-314
+136,Uttar Pradesh,farrukhabad,2014,Rabi,Rapeseed &Mustard,33554.0,2.0875543406475507e-115,2.1512070705e-314
+137,Uttar Pradesh,farrukhabad,2014,Rabi,Potato,6453.0,2.1877770744e-314,2.1877759677e-314
+138,Uttar Pradesh,fatehpur,2014,Kharif,Urad,80702.0,2.087561333914631e-115,2.121995791e-314
+139,Uttar Pradesh,fatehpur,2014,Kharif,Sugarcane,16633.0,5.14e-321,5.14e-321
+140,Uttar Pradesh,fatehpur,2014,Kharif,Sesamum,10863.0,1.5e-323,1.5e-323
+141,Uttar Pradesh,fatehpur,2014,Rabi,Wheat,174246.0,2.1908552116e-314,2.1877939176e-314
+142,Uttar Pradesh,fatehpur,2014,Rabi,Rapeseed &Mustard,41942.0,6.95276438534497e-310,6.95276438534497e-310
+143,Uttar Pradesh,fatehpur,2014,Rabi,Potato,16818.0,1.1949010665088331e+190,2.151205355e-314
+144,Uttar Pradesh,firozabad,2014,Kharif,Urad,23319.0,3.435315101876462e+228,2.1478778467e-314
+145,Uttar Pradesh,firozabad,2014,Kharif,Sugarcane,9398.0,9.13607823307883e+242,2.1512074025e-314
+146,Uttar Pradesh,firozabad,2014,Kharif,Sesamum,1796.0,4.76660076964339e+180,2.1625123913e-314
+147,Uttar Pradesh,firozabad,2014,Rabi,Wheat,97764.0,2.450671634569895e+198,2.121995791e-314
+148,Uttar Pradesh,firozabad,2014,Rabi,Rapeseed &Mustard,53499.0,4.319025701656198e-96,2.151203015e-314
+149,Uttar Pradesh,firozabad,2014,Rabi,Potato,8163.0,3.507650125530364e+151,2.1512060745e-314
+150,Uttar Pradesh,gautam buddha nagar,2014,Kharif,Urad,22522.0,1.3954788478290135e-142,2.162428503e-314
+151,Uttar Pradesh,gautam buddha nagar,2014,Kharif,Sugarcane,1798.0,2.3570761997603165e+257,2.14528052e-314
+152,Uttar Pradesh,gautam buddha nagar,2014,Kharif,Rice,932.0,3.4924234984552726e-33,2.1512080744e-314
+153,Uttar Pradesh,gautam buddha nagar,2014,Rabi,Wheat,40032.0,8.261088473961332e-72,2.168537431e-314
+154,Uttar Pradesh,gautam buddha nagar,2014,Rabi,Rapeseed &Mustard,336.0,1.466314498864048e-75,2.1512025725e-314
+155,Uttar Pradesh,gautam buddha nagar,2014,Rabi,Potato,165.0,6.742323114092306e-67,2.1452846107e-314
+156,Uttar Pradesh,ghaziabad,2014,Kharif,Urad,11136.0,102.60000000000001,28.286666666666665
+157,Uttar Pradesh,ghaziabad,2014,Kharif,Sugarcane,8650.0,102.60000000000001,28.286666666666665
+158,Uttar Pradesh,ghaziabad,2014,Kharif,Rice,479.0,102.60000000000001,28.286666666666665
+159,Uttar Pradesh,ghaziabad,2014,Rabi,Wheat,26619.0,5.91625,20.511250000000004
+160,Uttar Pradesh,ghaziabad,2014,Rabi,Rapeseed &Mustard,1349.0,5.91625,20.511250000000004
+161,Uttar Pradesh,ghaziabad,2014,Rabi,Potato,477.0,5.91625,20.511250000000004
+162,Uttar Pradesh,ghazipur,2014,Kharif,Urad,136673.0,4.824123284039802e+228,2.1698250174e-314
+163,Uttar Pradesh,ghazipur,2014,Kharif,Sugarcane,7239.0,1.0471813005185073e-142,2.145285247e-314
+164,Uttar Pradesh,ghazipur,2014,Kharif,Sesamum,6284.0,1.4776364750968623e+248,2.151203458e-314
+165,Uttar Pradesh,ghazipur,2014,Rabi,Wheat,175209.0,4.7821447727351e+180,2.151204849e-314
+166,Uttar Pradesh,ghazipur,2014,Rabi,Rapeseed &Mustard,7865.0,1.1644157375316346e-28,2.151201055e-314
+167,Uttar Pradesh,ghazipur,2014,Rabi,Potato,3964.0,3.4177407004717986e+214,2.169602937e-314
+168,Uttar Pradesh,gonda,2014,Kharif,Urad,134534.0,7.499596578052287e+295,2.1469463986e-314
+169,Uttar Pradesh,gonda,2014,Kharif,Sugarcane,79442.0,7.932607708760733e+223,2.151202857e-314
+170,Uttar Pradesh,gonda,2014,Kharif,Sesamum,43274.0,2.1181666454174643e+285,2.1700678605e-314
+171,Uttar Pradesh,gonda,2014,Rabi,Wheat,154990.0,1.1646660559238704e-28,2.162458803e-314
+172,Uttar Pradesh,gonda,2014,Rabi,Rapeseed &Mustard,7759.0,1.160717913375252e-28,2.1452807096e-314
+173,Uttar Pradesh,gonda,2014,Rabi,Potato,3042.0,1.1178934181717948e+253,2.151207181e-314
+174,Uttar Pradesh,gorakhpur,2014,Kharif,Urad,152431.0,143.142,28.218
+175,Uttar Pradesh,gorakhpur,2014,Kharif,Sugarcane,3518.0,143.142,28.218
+176,Uttar Pradesh,gorakhpur,2014,Kharif,Sesamum,3042.0,143.142,28.218
+177,Uttar Pradesh,gorakhpur,2014,Rabi,Wheat,190247.0,9.367249999999999,20.38
+178,Uttar Pradesh,gorakhpur,2014,Rabi,Rapeseed &Mustard,4275.0,9.367249999999999,20.38
+179,Uttar Pradesh,gorakhpur,2014,Rabi,Potato,3251.0,9.367249999999999,20.38
+180,Uttar Pradesh,hardoi,2014,Kharif,Urad,142184.0,8.51704294256804e-96,2.1452846384e-314
+181,Uttar Pradesh,hardoi,2014,Kharif,Sugarcane,37032.0,8.371779236692437e-144,2.1469569834e-314
+182,Uttar Pradesh,hardoi,2014,Kharif,Sesamum,32000.0,1.3038436236478153e-142,2.148553871e-314
+183,Uttar Pradesh,hardoi,2014,Rabi,Wheat,326194.0,1.1609664347740217e-28,2.151206296e-314
+184,Uttar Pradesh,hardoi,2014,Rabi,Rapeseed &Mustard,11891.0,2.0269772999471615e+267,2.146450728e-314
+185,Uttar Pradesh,hardoi,2014,Rabi,Potato,10874.0,4.038084490083007e+246,2.1685252255e-314
+186,Uttar Pradesh,hathras,2014,Kharif,Urad,29465.0,1.0874170979967634e-95,2.168554316e-314
+187,Uttar Pradesh,hathras,2014,Kharif,Sugarcane,3137.0,6.389881811593606e-67,2.151200031e-314
+188,Uttar Pradesh,hathras,2014,Kharif,Sesamum,3042.0,1.1646718487553843e-28,2.1624544947e-314
+189,Uttar Pradesh,hathras,2014,Rabi,Wheat,82134.0,9.104342090714935e+276,2.1685546956e-314
+190,Uttar Pradesh,hathras,2014,Rabi,Rapeseed &Mustard,47100.0,2.602188142170837e+251,2.151201387e-314
+191,Uttar Pradesh,hathras,2014,Rabi,Potato,8832.0,5.280355572569949e+256,2.1512008334e-314
+192,Uttar Pradesh,jalaun,2014,Kharif,Urad,35353.0,0.0,2.146940379e-314
+193,Uttar Pradesh,jalaun,2014,Kharif,Sugarcane,8779.0,2.144816218e-314,2.146472629e-314
+194,Uttar Pradesh,jalaun,2014,Kharif,Sesamum,6810.0,0.0,2.1512016634e-314
+195,Uttar Pradesh,jalaun,2014,Rabi,Wheat,155125.0,,2.1512045014e-314
+196,Uttar Pradesh,jalaun,2014,Rabi,Rapeseed &Mustard,36148.0,1.500089289359194e+248,2.151201691e-314
+197,Uttar Pradesh,jalaun,2014,Rabi,Potato,11680.0,0.0,2.151205798e-314
+198,Uttar Pradesh,jaunpur,2014,Kharif,Urad,140428.0,143.06666666666666,28.310000000000002
+199,Uttar Pradesh,jaunpur,2014,Kharif,Sugarcane,45029.0,143.06666666666666,28.310000000000002
+200,Uttar Pradesh,jaunpur,2014,Kharif,Sesamum,11954.0,143.06666666666666,28.310000000000002
+201,Uttar Pradesh,jaunpur,2014,Rabi,Wheat,209445.0,7.88,20.555
+202,Uttar Pradesh,jaunpur,2014,Rabi,Rapeseed &Mustard,9686.0,7.88,20.555
+203,Uttar Pradesh,jaunpur,2014,Rabi,Potato,4664.0,7.88,20.555
+204,Uttar Pradesh,jhansi,2014,Kharif,Urad,83502.0,4.4759381595361623e-91,2.151204691e-314
+205,Uttar Pradesh,jhansi,2014,Kharif,Sugarcane,76089.0,4.4759381595361623e-91,2.1699904424e-314
+206,Uttar Pradesh,jhansi,2014,Kharif,Sesamum,30159.0,4.4759381595361623e-91,2.1512059085e-314
+207,Uttar Pradesh,jhansi,2014,Rabi,Wheat,155061.0,4.4759381595361623e-91,2.169990316e-314
+208,Uttar Pradesh,jhansi,2014,Rabi,Rapeseed &Mustard,50891.0,4.4759381595361623e-91,2.169990379e-314
+209,Uttar Pradesh,jhansi,2014,Rabi,Potato,7966.0,4.4759381595361623e-91,2.16999232e-314
+210,Uttar Pradesh,kannauj,2014,Kharif,Urad,34990.0,4.4759381595361623e-91,2.169992237e-314
+211,Uttar Pradesh,kannauj,2014,Kharif,Sugarcane,22007.0,4.4759381595361623e-91,2.151205964e-314
+212,Uttar Pradesh,kannauj,2014,Kharif,Sesamum,1287.0,1.0603294330900618e+136,2.169992209e-314
+213,Uttar Pradesh,kannauj,2014,Rabi,Wheat,76686.0,9.021934228917646e+217,2.1453084484e-314
+214,Uttar Pradesh,kannauj,2014,Rabi,Rapeseed &Mustard,44678.0,9.162813857878885e-72,2.1512047227e-314
+215,Uttar Pradesh,kannauj,2014,Rabi,Potato,7523.0,5.208060366754342e+45,2.145308476e-314
+216,Uttar Pradesh,kanpur dehat,2014,Kharif,Urad,37513.0,6.991779075731385e+228,2.1512059915e-314
+217,Uttar Pradesh,kanpur dehat,2014,Kharif,Sugarcane,11802.0,1.614105586405973e+132,2.162457862e-314
+218,Uttar Pradesh,kanpur dehat,2014,Kharif,Sesamum,11363.0,6.013470017025205e-154,2.146354658e-314
+219,Uttar Pradesh,kanpur dehat,2014,Rabi,Wheat,122103.0,6.013470016999068e-154,2.16251666e-314
+220,Uttar Pradesh,kanpur dehat,2014,Rabi,Rapeseed &Mustard,22825.0,6.013470016999068e-154,2.151206019e-314
+221,Uttar Pradesh,kanpur dehat,2014,Rabi,Potato,20675.0,6.013470016999068e-154,2.1685026487e-314
+222,Uttar Pradesh,kanpur nagar,2014,Kharif,Urad,29881.0,9.853306216042826e+165,2.151206047e-314
+223,Uttar Pradesh,kanpur nagar,2014,Kharif,Sugarcane,17941.0,1.098654131984811e+248,2.1512048176e-314
+224,Uttar Pradesh,kanpur nagar,2014,Kharif,Sesamum,12252.0,6.964075966315266e+252,2.170199871e-314
+225,Uttar Pradesh,kanpur nagar,2014,Rabi,Wheat,102753.0,1.9771780236855798e+161,2.1624406134e-314
+226,Uttar Pradesh,kanpur nagar,2014,Rabi,Rapeseed &Mustard,15162.0,2.112126190193269e+257,2.162458388e-314
+227,Uttar Pradesh,kanpur nagar,2014,Rabi,Potato,14049.0,6.609254111522967e-62,2.162440582e-314
+228,Uttar Pradesh,kaushambi,2014,Kharif,Urad,43224.0,1.494609666936199e+195,2.151206102e-314
+229,Uttar Pradesh,kaushambi,2014,Kharif,Sugarcane,8962.0,9.82391602785277e+252,2.151204881e-314
+230,Uttar Pradesh,kaushambi,2014,Kharif,Sesamum,6199.0,9.17987751257923e-72,2.1497919835e-314
+231,Uttar Pradesh,kaushambi,2014,Rabi,Wheat,70882.0,5.742107319218485e+174,2.145277421e-314
+232,Uttar Pradesh,kaushambi,2014,Rabi,Rapeseed &Mustard,9795.0,9.89803614943766e+164,2.169894633e-314
+233,Uttar Pradesh,kaushambi,2014,Rabi,Potato,3992.0,5.971449514579964e+135,2.151206185e-314
+234,Uttar Pradesh,kheri,2014,Kharif,Urad,268653.0,157.59666666666666,28.22666666666667
+235,Uttar Pradesh,kheri,2014,Kharif,Sugarcane,155403.0,157.59666666666666,28.22666666666667
+236,Uttar Pradesh,kheri,2014,Kharif,Sesamum,6959.0,157.59666666666666,28.22666666666667
+237,Uttar Pradesh,kheri,2014,Rabi,Wheat,185828.0,14.094999999999999,19.805
+238,Uttar Pradesh,kheri,2014,Rabi,Rapeseed &Mustard,29860.0,14.094999999999999,19.805
+239,Uttar Pradesh,kheri,2014,Rabi,Potato,1574.0,14.094999999999999,19.805
+240,Uttar Pradesh,lalitpur,2014,Kharif,Urad,142838.0,1.0038554355118033e+218,2.151206462e-314
+241,Uttar Pradesh,lalitpur,2014,Kharif,Sugarcane,20987.0,1.2447802732825017e+136,2.151206517e-314
+242,Uttar Pradesh,lalitpur,2014,Kharif,Sesamum,10706.0,1.353016601828373e-23,2.1464918384e-314
+243,Uttar Pradesh,lalitpur,2014,Rabi,Wheat,173401.0,1.421378360108354e-76,2.1512065725e-314
+244,Uttar Pradesh,lalitpur,2014,Rabi,Rapeseed &Mustard,13216.0,6.513177953444176e+175,2.1512066e-314
+245,Uttar Pradesh,lalitpur,2014,Rabi,Potato,4598.0,9.162813866218055e-72,2.170244811e-314
+246,Uttar Pradesh,lucknow,2014,Kharif,Urad,54126.0,145.725,28.30666666666667
+247,Uttar Pradesh,lucknow,2014,Kharif,Sugarcane,5342.0,145.725,28.30666666666667
+248,Uttar Pradesh,lucknow,2014,Kharif,Sesamum,1743.0,145.725,28.30666666666667
+249,Uttar Pradesh,lucknow,2014,Rabi,Wheat,79315.0,10.5325,19.59275
+250,Uttar Pradesh,lucknow,2014,Rabi,Rapeseed &Mustard,4243.0,10.5325,19.59275
+251,Uttar Pradesh,lucknow,2014,Rabi,Potato,3844.0,10.5325,19.59275
+252,Uttar Pradesh,maharajganj,2014,Kharif,Urad,165814.0,2.951640821891125e-75,2.151206766e-314
+253,Uttar Pradesh,maharajganj,2014,Kharif,Sugarcane,15932.0,3.0637079705663137e-57,2.1512051654e-314
+254,Uttar Pradesh,maharajganj,2014,Kharif,Sesamum,1154.0,9.898036149454016e+164,2.151206877e-314
+255,Uttar Pradesh,maharajganj,2014,Rabi,Wheat,152333.0,9.16281386776437e-72,2.151205197e-314
+256,Uttar Pradesh,maharajganj,2014,Rabi,Rapeseed &Mustard,3409.0,0.0,2.1463780966e-314
+257,Uttar Pradesh,maharajganj,2014,Rabi,Potato,2296.0,9.459562646579981e-76,2.1512069045e-314
+258,Uttar Pradesh,mahoba,2014,Kharif,Urad,50433.0,184.44333333333336,26.676666666666666
+259,Uttar Pradesh,mahoba,2014,Kharif,Sugarcane,31808.0,184.44333333333336,26.676666666666666
+260,Uttar Pradesh,mahoba,2014,Kharif,Sesamum,11609.0,184.44333333333336,26.676666666666666
+261,Uttar Pradesh,mahoba,2014,Rabi,Wheat,69598.0,11.905000000000001,19.525
+262,Uttar Pradesh,mahoba,2014,Rabi,Rapeseed &Mustard,54605.0,11.905000000000001,19.525
+263,Uttar Pradesh,mahoba,2014,Rabi,Potato,5736.0,11.905000000000001,19.525
+264,Uttar Pradesh,mainpuri,2014,Kharif,Urad,73176.0,7.527371102171815e+252,2.15120526e-314
+265,Uttar Pradesh,mainpuri,2014,Kharif,Sugarcane,49703.0,1.6141055864059753e+132,2.1685367985e-314
+266,Uttar Pradesh,mainpuri,2014,Kharif,Sesamum,1770.0,9.898036149462271e+164,2.151205292e-314
+267,Uttar Pradesh,mainpuri,2014,Rabi,Wheat,149855.0,8.877091309228824e+135,2.1468977706e-314
+268,Uttar Pradesh,mainpuri,2014,Rabi,Rapeseed &Mustard,15606.0,9.021934228917646e+217,2.1512053235e-314
+269,Uttar Pradesh,mainpuri,2014,Rabi,Potato,6137.0,9.45956264658009e-76,2.15095433e-314
+270,Uttar Pradesh,mathura,2014,Kharif,Urad,49400.0,102.15333333333332,27.97666666666667
+271,Uttar Pradesh,mathura,2014,Kharif,Sugarcane,2067.0,102.15333333333332,27.97666666666667
+272,Uttar Pradesh,mathura,2014,Kharif,Sesamum,990.0,102.15333333333332,27.97666666666667
+273,Uttar Pradesh,mathura,2014,Rabi,Wheat,194214.0,4.3355,19.7175
+274,Uttar Pradesh,mathura,2014,Rabi,Rapeseed &Mustard,39052.0,4.3355,19.7175
+275,Uttar Pradesh,mathura,2014,Rabi,Potato,14903.0,4.3355,19.7175
+276,Uttar Pradesh,mau,2014,Kharif,Sugarcane,91396.0,9.16281385949371e-72,2.168553557e-314
+277,Uttar Pradesh,mau,2014,Kharif,Sesamum,6411.0,1.4213787552470354e-76,2.1512056397e-314
+278,Uttar Pradesh,mau,2014,Kharif,Rice,2289.0,1.718787860888238e+161,2.145306982e-314
+279,Uttar Pradesh,mau,2014,Rabi,Wheat,95097.0,9.898036149458212e+164,2.1512056713e-314
+280,Uttar Pradesh,mau,2014,Rabi,Rapeseed &Mustard,1231.0,9.16281386776437e-72,2.1512071535e-314
+281,Uttar Pradesh,mau,2014,Rabi,Potato,1171.0,2.591129188147105e+132,2.1470753813e-314
+282,Uttar Pradesh,meerut,2014,Kharif,Urad,121109.0,110.09633333333333,28.327
+283,Uttar Pradesh,meerut,2014,Kharif,Sugarcane,14466.0,110.09633333333333,28.327
+284,Uttar Pradesh,meerut,2014,Kharif,Sesamum,963.0,110.09633333333333,28.327
+285,Uttar Pradesh,meerut,2014,Rabi,Wheat,76072.0,5.768,18.916249999999998
+286,Uttar Pradesh,meerut,2014,Rabi,Rapeseed &Mustard,5443.0,5.768,18.916249999999998
+287,Uttar Pradesh,meerut,2014,Rabi,Potato,5283.0,5.768,18.916249999999998
+288,Uttar Pradesh,mirzapur,2014,Kharif,Urad,81132.0,2.951640821891125e-75,2.162484087e-314
+289,Uttar Pradesh,mirzapur,2014,Kharif,Sugarcane,12636.0,3.0637079705663137e-57,2.1512078847e-314
+290,Uttar Pradesh,mirzapur,2014,Kharif,Sesamum,3947.0,9.898036149428353e+164,2.1512073195e-314
+291,Uttar Pradesh,mirzapur,2014,Rabi,Wheat,98339.0,9.16281386776437e-72,2.1699245775e-314
+292,Uttar Pradesh,mirzapur,2014,Rabi,Rapeseed &Mustard,12948.0,1.3226597732651745e-70,2.169922119e-314
+293,Uttar Pradesh,mirzapur,2014,Rabi,Potato,2458.0,9.45956264658009e-76,2.1512079163e-314
+294,Uttar Pradesh,moradabad,2014,Kharif,Urad,87934.0,139.51666666666668,27.99666666666667
+295,Uttar Pradesh,moradabad,2014,Kharif,Sugarcane,44938.0,139.51666666666668,27.99666666666667
+296,Uttar Pradesh,moradabad,2014,Kharif,Sesamum,3494.0,139.51666666666668,27.99666666666667
+297,Uttar Pradesh,moradabad,2014,Rabi,Wheat,122232.0,10.427,19.11
+298,Uttar Pradesh,moradabad,2014,Rabi,Rapeseed &Mustard,2183.0,10.427,19.11
+299,Uttar Pradesh,moradabad,2014,Rabi,Potato,1692.0,10.427,19.11
+300,Uttar Pradesh,muzaffarnagar,2014,Kharif,Urad,164216.0,3.0637079705663137e-57,2.168545905e-314
+301,Uttar Pradesh,muzaffarnagar,2014,Kharif,Sugarcane,10667.0,1.6141055864059715e+132,2.168553399e-314
+302,Uttar Pradesh,muzaffarnagar,2014,Kharif,Rice,618.0,9.898036149462271e+164,2.1685371147e-314
+303,Uttar Pradesh,muzaffarnagar,2014,Rabi,Wheat,78843.0,2.9516432932916053e-75,2.1463267296e-314
+304,Uttar Pradesh,muzaffarnagar,2014,Rabi,Rapeseed &Mustard,4352.0,4.313349942879077e-96,2.162454621e-314
+305,Uttar Pradesh,muzaffarnagar,2014,Rabi,Potato,1162.0,1.614105586405948e+132,2.151208043e-314
+306,Uttar Pradesh,pilibhit,2014,Kharif,Urad,118036.0,123.09976666666667,27.849333333333334
+307,Uttar Pradesh,pilibhit,2014,Kharif,Sugarcane,93620.0,123.09976666666667,27.849333333333334
+308,Uttar Pradesh,pilibhit,2014,Kharif,Sesamum,785.0,123.09976666666667,27.849333333333334
+309,Uttar Pradesh,pilibhit,2014,Rabi,Wheat,144784.0,8.317,19.36425
+310,Uttar Pradesh,pilibhit,2014,Rabi,Rapeseed &Mustard,9573.0,8.317,19.36425
+311,Uttar Pradesh,pilibhit,2014,Rabi,Potato,489.0,8.317,19.36425
+312,Uttar Pradesh,pratapgarh,2014,Kharif,Urad,104143.0,133.50833333333335,28.114333333333335
+313,Uttar Pradesh,pratapgarh,2014,Kharif,Sugarcane,6102.0,133.50833333333335,28.114333333333335
+314,Uttar Pradesh,pratapgarh,2014,Kharif,Sesamum,5573.0,133.50833333333335,28.114333333333335
+315,Uttar Pradesh,pratapgarh,2014,Rabi,Wheat,138562.0,9.17325,20.108999999999998
+316,Uttar Pradesh,pratapgarh,2014,Rabi,Rapeseed &Mustard,4602.0,9.17325,20.108999999999998
+317,Uttar Pradesh,pratapgarh,2014,Rabi,Potato,2945.0,9.17325,20.108999999999998
+318,Uttar Pradesh,rae bareli,2014,Kharif,Urad,104251.0,5.298747662588616e+180,2.1512018453e-314
+319,Uttar Pradesh,rae bareli,2014,Kharif,Sugarcane,13639.0,4.735595000835308e+164,2.150954366e-314
+320,Uttar Pradesh,rae bareli,2014,Kharif,Sesamum,5553.0,0.0,0.0
+321,Uttar Pradesh,rae bareli,2014,Rabi,Wheat,167432.0,9.136119694008702e+242,2.1512079257e-314
+322,Uttar Pradesh,rae bareli,2014,Rabi,Rapeseed &Mustard,7698.0,6.9527631630748e-310,6.95276417077265e-310
+323,Uttar Pradesh,rae bareli,2014,Rabi,Potato,4705.0,9.941120030323879e-143,2.1469570353e-314
+324,Uttar Pradesh,rampur,2014,Kharif,Urad,124076.0,3.8098505849550667e+180,2.1685026803e-314
+325,Uttar Pradesh,rampur,2014,Kharif,Sugarcane,28625.0,9.041151386237068e+271,2.151204217e-314
+326,Uttar Pradesh,rampur,2014,Kharif,Sesamum,5836.0,4.5062179402417687e-144,2.1685373993e-314
+327,Uttar Pradesh,rampur,2014,Rabi,Wheat,147846.0,1.160971200423972e-28,2.168531186e-314
+328,Uttar Pradesh,rampur,2014,Rabi,Rapeseed &Mustard,3577.0,7.266158897071709e+223,2.1512069045e-314
+329,Uttar Pradesh,rampur,2014,Rabi,Potato,1606.0,1.0609849292574809e-153,2.145285662e-314
+330,Uttar Pradesh,saharanpur,2014,Kharif,Urad,124052.0,106.716,28.131333333333334
+331,Uttar Pradesh,saharanpur,2014,Kharif,Sugarcane,62552.0,106.716,28.131333333333334
+332,Uttar Pradesh,saharanpur,2014,Kharif,Sesamum,7497.0,106.716,28.131333333333334
+333,Uttar Pradesh,saharanpur,2014,Rabi,Wheat,118844.0,8.892,19.451999999999998
+334,Uttar Pradesh,saharanpur,2014,Rabi,Rapeseed &Mustard,1103.0,8.892,19.451999999999998
+335,Uttar Pradesh,saharanpur,2014,Rabi,Potato,754.0,8.892,19.451999999999998
+336,Uttar Pradesh,sant ravidas nagar,2014,Kharif,Urad,27981.0,7.100563210967087e+159,2.1512011654e-314
+337,Uttar Pradesh,sant ravidas nagar,2014,Kharif,Sugarcane,5543.0,1.1949010665088331e+190,2.162428309e-314
+338,Uttar Pradesh,sant ravidas nagar,2014,Kharif,Sesamum,2530.0,3.435315101876462e+228,2.1512075685e-314
+339,Uttar Pradesh,sant ravidas nagar,2014,Rabi,Wheat,48033.0,9.13607823307883e+242,2.168530854e-314
+340,Uttar Pradesh,sant ravidas nagar,2014,Rabi,Rapeseed &Mustard,1183.0,4.76660076964339e+180,2.169895582e-314
+341,Uttar Pradesh,sant ravidas nagar,2014,Rabi,Potato,806.0,2.450672600352214e+198,2.169924609e-314
+342,Uttar Pradesh,shahjahanpur,2014,Kharif,Urad,203946.0,4.319025701656198e-96,2.151206268e-314
+343,Uttar Pradesh,shahjahanpur,2014,Kharif,Sugarcane,42195.0,3.507650125530364e+151,2.1497919835e-314
+344,Uttar Pradesh,shahjahanpur,2014,Kharif,Sesamum,8123.0,1.3954788478290135e-142,2.145542118e-314
+345,Uttar Pradesh,shahjahanpur,2014,Rabi,Wheat,260462.0,2.3570761997603165e+257,2.151204375e-314
+346,Uttar Pradesh,shahjahanpur,2014,Rabi,Rapeseed &Mustard,14791.0,3.4924234984552726e-33,2.1512053867e-314
+347,Uttar Pradesh,shahjahanpur,2014,Rabi,Potato,7444.0,8.261088473961332e-72,2.169922119e-314
+348,Uttar Pradesh,siddharth nagar,2014,Kharif,Urad,170404.0,1.466314498864048e-75,2.1685536837e-314
+349,Uttar Pradesh,siddharth nagar,2014,Kharif,Sugarcane,2377.0,6.742323114092306e-67,2.16999232e-314
+350,Uttar Pradesh,siddharth nagar,2014,Kharif,Rice,1961.0,3.630692129517946e+179,2.151199948e-314
+351,Uttar Pradesh,siddharth nagar,2014,Rabi,Wheat,161544.0,1.692817662588474e+190,2.15120526e-314
+352,Uttar Pradesh,siddharth nagar,2014,Rabi,Rapeseed &Mustard,3230.0,1.1607130769691754e-28,2.1452805515e-314
+353,Uttar Pradesh,siddharth nagar,2014,Rabi,Potato,1679.0,1.488902965330079e+195,2.1512036476e-314
+354,Uttar Pradesh,sitapur,2014,Kharif,Urad,164128.0,172.39333333333335,28.133333333333336
+355,Uttar Pradesh,sitapur,2014,Kharif,Sugarcane,148655.0,172.39333333333335,28.133333333333336
+356,Uttar Pradesh,sitapur,2014,Kharif,Sesamum,11239.0,172.39333333333335,28.133333333333336
+357,Uttar Pradesh,sitapur,2014,Rabi,Wheat,208675.0,15.535,19.603749999999998
+358,Uttar Pradesh,sitapur,2014,Rabi,Rapeseed &Mustard,25374.0,15.535,19.603749999999998
+359,Uttar Pradesh,sitapur,2014,Rabi,Potato,4182.0,15.535,19.603749999999998
+360,Uttar Pradesh,sonbhadra,2014,Kharif,Urad,29426.0,1.1644157375316346e-28,2.151202794e-314
+361,Uttar Pradesh,sonbhadra,2014,Kharif,Sugarcane,15760.0,3.4177407004717986e+214,2.170199871e-314
+362,Uttar Pradesh,sonbhadra,2014,Kharif,Sesamum,10409.0,7.499596578052287e+295,2.151206517e-314
+363,Uttar Pradesh,sonbhadra,2014,Rabi,Wheat,57789.0,0.0,2.145282101e-314
+364,Uttar Pradesh,sonbhadra,2014,Rabi,Rapeseed &Mustard,10941.0,0.0,2.169990379e-314
+365,Uttar Pradesh,sonbhadra,2014,Rabi,Potato,4003.0,0.0,2.1512074855e-314
+366,Uttar Pradesh,sultanpur,2014,Kharif,Urad,85103.0,0.0,2.1464918384e-314
+367,Uttar Pradesh,sultanpur,2014,Kharif,Sugarcane,10951.0,0.0,2.1685371147e-314
+368,Uttar Pradesh,sultanpur,2014,Kharif,Sesamum,5565.0,0.0,2.147253304e-314
+369,Uttar Pradesh,sultanpur,2014,Rabi,Wheat,104295.0,0.0,2.168545988e-314
+370,Uttar Pradesh,sultanpur,2014,Rabi,Rapeseed &Mustard,5340.0,0.0,2.1512007227e-314
+371,Uttar Pradesh,sultanpur,2014,Rabi,Potato,2722.0,0.0,2.146957094e-314
+372,Uttar Pradesh,unnao,2014,Kharif,Urad,96435.0,0.0,2.1512000034e-314
+373,Uttar Pradesh,unnao,2014,Kharif,Sugarcane,23716.0,0.0,2.1685374625e-314
+374,Uttar Pradesh,unnao,2014,Kharif,Sesamum,23550.0,0.0,2.1685028384e-314
+375,Uttar Pradesh,unnao,2014,Rabi,Wheat,243188.0,0.0,2.168553399e-314
+376,Uttar Pradesh,unnao,2014,Rabi,Rapeseed &Mustard,15484.0,0.0,2.1685537786e-314
+377,Uttar Pradesh,unnao,2014,Rabi,Potato,9838.0,0.0,2.168545656e-314
+378,Uttar Pradesh,varanasi,2014,Kharif,Urad,43862.0,0.0,2.151205608e-314
+379,Uttar Pradesh,varanasi,2014,Kharif,Sugarcane,4062.0,0.0,2.1699245775e-314
+380,Uttar Pradesh,varanasi,2014,Kharif,Sesamum,3996.0,0.0,2.1512034895e-314
+381,Uttar Pradesh,varanasi,2014,Rabi,Wheat,68617.0,0.0,2.168502965e-314
+382,Uttar Pradesh,varanasi,2014,Rabi,Rapeseed &Mustard,3237.0,0.0,2.146956873e-314
+383,Uttar Pradesh,varanasi,2014,Rabi,Potato,2078.0,0.0,2.1512045014e-314
