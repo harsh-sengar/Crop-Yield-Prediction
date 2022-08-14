@@ -18,7 +18,7 @@ Make sure to install the above libraries and finally run the scripts
 
 # Models Utilized
 * **Logistic regression:**<br/><br/> 
-Logistic regression is a statistical model which is used primarily for classification tasks. Logistic regression uses an equation similar to the equation of linear regression, however, it models the dependent (or output) variable as a binary (or categorical) value using a logistic or sigmoid function [4]. A L2 regularized logistic regression model has been used for the experiments.<br/><br/>
+Logistic regression is a statistical model which is used primarily for classification tasks. Logistic regression uses an equation similar to the equation of linear regression, however, it models the dependent (or output) variable as a binary (or categorical) value using a logistic or sigmoid function. A L2 regularized logistic regression model has been used for the experiments.<br/><br/>
 
 * **Neural network:**<br/><br/>
 Inside the human brain, multiple neurons are interconnected, where each neuron takes a sensory input and produces a response. Similarly in an artificial neural network, each input node is connected to numerous neurons in multiple hidden layers, which are in turn are connected to the output nodes in the output layers. The layers are fully connected, and each interconnection has a weight associated with it, which are learned during the training process. Back propagation and gradient descent algorithm are used to train the neural net.<br/><br/>
