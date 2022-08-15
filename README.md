@@ -1,5 +1,5 @@
 # Crop-Yield-Prediction
-A Sustainable Development Project
+A Sustainable Development Research Project in which developed a model that predicts crop yield and suggests crops for a given district by considering factors like temperature, rainfall, area, etc.
 
 # Description
 
